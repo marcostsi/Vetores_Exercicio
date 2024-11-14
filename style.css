@@ -1,0 +1,9 @@
+#main {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    height: 300px;
+    border: 1px black solid;
+    padding: 5px;
+}
