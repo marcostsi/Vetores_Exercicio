@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="main">
+        <h1>Lab3</h1>
+        <label for="valor">Digite um valor:</label>
+        <input type="text" name="valor" id="valor">
+
+        <p>Selecione uma operação: </p>
+        <div>
+            <input type="button" value="sort" onclick="sortValue()">
+            <input type="button" value="filter" onclick="filterValue()">
+            <input type="button" value="map" onclick="mapValue()">
+            <input type="button" value="find" onclick="findValue()">
+            <input type="button" value="reduce" onclick="reduceValue()">
+        </div>
+
+        <div id="array"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>  

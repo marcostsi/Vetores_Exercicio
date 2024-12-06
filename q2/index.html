@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="main">
+        <h1>Lab1</h1>
+        <label for="valor">Digite um valor:</label>
+        <input type="text" name="valor" id="valor">
+
+        <p>Selecione uma operação: </p>
+        <div>
+            <input type="button" value="push" id="push" onclick="pushValue()">
+            <input type="button" value="unshift" onclick="unshiftValue()">
+            <input type="button" value="shift" onclick="shiftValue()">
+            <input type="button" value="pop" onclick="popValue()">
+        </div>
+
+        <div id="array"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
